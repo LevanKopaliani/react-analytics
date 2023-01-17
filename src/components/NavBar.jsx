@@ -3,6 +3,8 @@ import { Link, NavLink } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 import "../styles/NavBar.css";
 import { IconContext } from "react-icons";
+import logo1 from "../img/logo1.png";
+import logo2 from "../img/logo2.png";
 
 const NavBar = () => {
   const [mobileMenu, setMobileMenu] = useState(false);
@@ -18,7 +20,8 @@ const NavBar = () => {
       <div className="navbar">
         <div className="navbar-container container">
           <div className="nav-logo">
-            <span>Logo</span>
+            <img src={logo1} alt="Logo" />
+            <img src={logo2} alt="" />
           </div>
           <div className="menu-icon" onClick={toogleMenu}>
             {mobileMenu ? <FaTimes /> : <FaBars />}
@@ -32,7 +35,7 @@ const NavBar = () => {
                 }
                 onClick={closeMobileMenu}
               >
-                Home
+                Products
               </NavLink>
             </li>
             <li className="nav-item">
@@ -43,7 +46,7 @@ const NavBar = () => {
                 }
                 onClick={closeMobileMenu}
               >
-                About
+                Pricing
               </NavLink>
             </li>
             <li className="nav-item">
@@ -54,7 +57,18 @@ const NavBar = () => {
                 }
                 onClick={closeMobileMenu}
               >
-                Contact
+                FAQ
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                to="/"
+                className={({ isActive }) =>
+                  isActive ? "nav-links activated" : "nav-links"
+                }
+                onClick={closeMobileMenu}
+              >
+                Blog
               </NavLink>
             </li>
           </ul>

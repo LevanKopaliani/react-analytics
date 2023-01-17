@@ -1,5 +1,3 @@
-import MyInput from "../components/MyInput";
-
 const Home = () => {
   return (
     <div
@@ -14,7 +12,6 @@ const Home = () => {
       }}
     >
       Home
-      <MyInput place={"test"} />
     </div>
   );
 };
