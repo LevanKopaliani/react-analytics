@@ -1,3 +1,5 @@
+import Button from "../components/Button";
+
 const Home = () => {
   return (
     <div
@@ -12,6 +14,7 @@ const Home = () => {
       }}
     >
       Home
+      <Button text={"test"} size={"medium"} />
     </div>
   );
 };

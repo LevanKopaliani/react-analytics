@@ -5,6 +5,7 @@ import "../styles/NavBar.css";
 import { IconContext } from "react-icons";
 import logo1 from "../img/logo1.png";
 import logo2 from "../img/logo2.png";
+import Button from "./Button";
 
 const NavBar = () => {
   const [mobileMenu, setMobileMenu] = useState(false);
@@ -71,6 +72,12 @@ const NavBar = () => {
                 Blog
               </NavLink>
             </li>
+            <ul className="login">
+              <li className="sign-in">Sign in</li>
+              <li>
+                <Button text={"Sign Up"} size={"small"} />
+              </li>
+            </ul>
           </ul>
         </div>
       </div>

@@ -1,0 +1,25 @@
+.btn {
+  border-radius: 68px;
+  border: 1px solid #2a407c;
+  color: white;
+  background-color: transparent;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 19px;
+}
+.medium {
+  width: 238px;
+  height: 50px;
+  padding: 10px 80px;
+  border: 1px solid #2a407c;
+}
+
+.maincolor {
+  background-color: #ef2a82;
+  border: none;
+}
+.small {
+  width: 161px;
+  height: 40px;
+  color: #8794ba;
+}
