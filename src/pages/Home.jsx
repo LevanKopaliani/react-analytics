@@ -2,7 +2,6 @@ import Button from "../components/Button";
 import NavBar from "../components/NavBar";
 import "../styles/Home.css";
 import mainchart from "../img/main-screen.png";
-import centerchart from "../img/chart-3.png";
 
 const Home = () => {
   return (

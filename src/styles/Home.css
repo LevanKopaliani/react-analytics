@@ -1,6 +1,6 @@
 .homepage {
   width: 100%;
-  height: 815px;
+  min-height: 815px;
   /* background-color: #172755;
   background-image: url(../img/back1.svg), url(../img/back2.svg);
   background-repeat: no-repeat, no-repeat;
@@ -21,7 +21,7 @@
   /* max-width: 550px; */
   display: flex;
   flex: 1 1;
-  justify-content: center;
+  justify-content: flex-end;
 }
 
 .main-info-section {
@@ -55,6 +55,14 @@
 }
 .main-img img {
   max-height: 555px;
+}
+@media screen and (max-width: 1020px) {
+  .main-info {
+    justify-content: center;
+  }
+  .main-img {
+    margin-top: 20px;
+  }
 }
 
 @media screen and (max-width: 560px) {
