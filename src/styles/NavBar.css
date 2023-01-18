@@ -1,6 +1,7 @@
 .navbar {
   height: 140px;
-  background-color: #172755;
+  /* background-color: #172755; */
+  background-color: transparent;
 }
 .navbar-container {
   height: 140px;
@@ -53,7 +54,7 @@
   display: flex;
   gap: 40px;
   flex: 1;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: center;
 }
 .sign-in {

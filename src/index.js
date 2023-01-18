@@ -8,8 +8,8 @@ import Home from "./pages/Home";
 const Applayout = () => {
   return (
     <>
-      <NavBar />
-      <Outlet />
+      <Home />
+      {/* <Outlet /> */}
     </>
   );
 };
