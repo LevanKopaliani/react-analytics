@@ -1,0 +1,27 @@
+.footer {
+  margin-top: 100px;
+  height: 200px;
+  border-top: 1px solid #2a407c;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.footer-nav {
+  color: #8794ba;
+  display: flex;
+  gap: 36px;
+}
+.footer-social {
+  display: flex;
+  gap: 40px;
+}
+.footer-social img {
+  height: 20px;
+  cursor: pointer;
+}
+@media screen and (max-width: 1200px) {
+  .footer {
+    justify-content: space-around;
+  }
+}

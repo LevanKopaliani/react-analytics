@@ -13,7 +13,10 @@
 
   border: 1px solid #2a407c;
 }
-
+.pricing-button-m {
+  width: 206px;
+  height: 50px;
+}
 .maincolor {
   background-color: #ef2a82;
   border: none;
