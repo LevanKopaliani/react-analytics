@@ -18,17 +18,20 @@ const Applayout = () => {
   );
 };
 
-const router = createBrowserRouter([
-  {
-    element: <Applayout />,
-    children: [
-      {
-        path: "/",
-        element: <Home />,
-      },
-    ],
-  },
-]);
+const router = createBrowserRouter(
+  [
+    {
+      element: <Applayout />,
+      children: [
+        {
+          path: "/",
+          element: <Home />,
+        },
+      ],
+    },
+  ],
+  { basename: "/react-analytics/" }
+);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<RouterProvider router={router} />);
